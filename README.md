@@ -10,7 +10,7 @@ This repository contains **Dockerfile** of [InspIRCd](http://www.inspircd.org/) 
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/timms/inspircd/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull luzifer/inspircd`
+2. Download [automated build](https://registry.hub.docker.com/u/timms/inspircd/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull timms/inspircd`
 
 ## Usage
 
@@ -19,7 +19,7 @@ Create a directory containing the configuration for the [InspIRCd](http://www.in
 Then launch it with your configuration:
 
 ```
-docker run -d -p 6667:6667 -v /home/myuser/config:/inspircd/conf luzifer/inspircd
+docker run -d -p 6667:6667 -v /home/myuser/config:/inspircd/conf timms/inspircd
 ```
 
 Easy!
