@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER Tim Slot <tim.slot@gmail.com>
 
-ADD https://github.com/inspircd/inspircd/archive/v2.0.19.tar.gz /src/
+ADD https://github.com/inspircd/inspircd/archive/v2.0.20.tar.gz /src/
 
 RUN apt-get update && \
     apt-get install -y build-essential libssl-dev libssl1.0.0 openssl pkg-config && \
